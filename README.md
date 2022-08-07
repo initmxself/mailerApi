@@ -1,22 +1,24 @@
 # mailerApi
 Django based notification service
 
-Installation process
+## Installation process
 
-1. clone this repo:
+1. clone this repo: 
 
-2. creeate a virtual environment
+   `git clone https://github.com/initmxself/mailerApi.git`
 
-$python -m venv <envnamegoeshere>
+2. create a virtual environment
+
+   `python -m venv <envnamegoeshere>`
 
 3. activate the  virtual environment
 
-$source <envnamegoeshere>/bin/activate
+   `source <envnamegoeshere>/bin/activate`
 
 4. navigate to the downloaded repo
- $cd mailerApi
+ 
+   `cd mailerApi`
 
 5. make migrations
 
-$python manage.py makemigrations
-$python manage.py migrate
+  `python manage.py makemigrations && python manage.py migrate`
