@@ -15,10 +15,14 @@ Django based notification service
 
    `source <envnamegoeshere>/bin/activate`
 
-4. navigate to the downloaded repo
+4. install all the necessary dependancies
+
+   `pip install -r requirements.txt`
+   
+5. navigate to the downloaded repo
  
    `cd mailerApi`
 
-5. make migrations
+6. make migrations
 
    `python manage.py makemigrations && python manage.py migrate`
